@@ -1,0 +1,159 @@
+.pokemon{   
+    border-radius: 20px;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+
+}
+.pokemon__header{
+    height: 400px;
+    
+}
+
+.pokemon__body{
+    padding: 20px;
+    
+}
+
+.pokemon__img{
+    position: absolute;
+    right: 40%;
+    top: 30px;
+    margin: 0 auto;
+}
+
+.pokemon__id{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    
+}
+
+.pokemon__name{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.pokemon__dates{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    text-align: center;
+    
+    
+}
+
+.pokemon__information{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 20px;
+
+}
+.pokemon__type{
+    padding: 15px;    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pokemon__type__1{
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.pokemon__abilities{
+    padding: 15px;    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pokemon__abilities__1{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.pokemon__stats__title {
+    margin: 40px;
+    text-align: rigth;
+    font-size: 25px;
+}
+
+.pokemon__stats{
+ 
+    margin: 40px;
+   
+    text-transform: capitalize;
+
+   
+}
+
+.pokemon_stat{
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 20px; 
+  
+}
+
+.pokemon__progress{
+    margin-top: 30px;
+}
+
+.pokemon__section2{
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
+.pokemon__moves{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(5, 1fr);
+   
+    
+}
+
+.pokemon__moves__card{
+  background-color: darkgrey;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  
+}
+
+.pokemon__section__title{
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+
+.pokemon__stat__barGray{
+    background-color: #F7F7F7;
+    height: 25px;
+}
+
+.pokemon__stat__barProgress{
+    height: 25px;
+    background:  linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    border-radius: 4px;
+    width: 50%;
+    margin-top: 20px;
+   
+}

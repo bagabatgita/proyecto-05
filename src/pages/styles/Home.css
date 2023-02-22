@@ -1,0 +1,74 @@
+.home_principal{
+    margin: 0px auto;
+    
+}
+
+.home{
+    text-align: center;
+    padding: 15%;
+    
+}
+
+.home__img{
+    padding: 20px;
+}
+
+.home__title{
+    padding: 10px;
+    font-size: 60px;
+    color: red;
+    text-align: center;
+}
+
+.home__message{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.home__content{
+    font-size: 20px ;
+}
+
+
+
+.footer__red{
+    height: 100px;
+    background-color: #DD1A1A;
+}
+
+
+
+.footer__black{
+    height: 50px;
+    background-color: #0C0C0C;
+    position: relative;
+    
+}
+
+.footer__pokeball{
+    position: absolute;
+    top:-50px;
+    right: 50%;
+    background-color: rga(255,255,1);
+    border: 10px solid ;
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__pokeball::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: rgba(33,33,33,1);
+    border: 10px solid #DD1A1A;
+    border-radius: 50%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+}

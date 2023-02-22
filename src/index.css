@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+  --principal-font: 'Roboto', sans-serif;
+  --Dark-Blue: hsl(209, 23%, 22%);
+  --Very-Dark-Blue: hsl(207, 26%, 17%);
+  --Dark-Gray: hsl(0, 0%, 52%);
+  --Very-Light-Gray: hsl(0, 8%, 95%);
+  --White: hsl(0, 0%, 100%);
+}
+
+
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+
+.border-normal {
+  border: 10px solid #735259;
+}
+.border-fighting {
+  border: 10px solid #96402A;
+}
+.border-flying {
+  border: 10px solid #beb14c;
+}
+.border-poison {
+  border: 10px solid #5B3184;
+}
+.border-ground {
+  border: 10px solid #654008;
+}
+.border-rock {
+  border: 10px solid #7E7E7E;
+}
+.border-bug {
+  border: 10px solid #E52D2D;
+}
+.border-ghost {
+  border: 10px solid #323569;
+}
+.border-steel {
+  border: 10px solid #5E736C;
+}
+.border-fire {
+  border: 10px solid #F96D6F;
+}
+.border-water {
+  border: 10px solid #133258;
+}
+.border-grass {
+  border: 10px solid #7EC6C5;
+}
+.border-electric {
+  border: 10px solid #0C1395;
+}
+.border-psychic {
+  border: 10px solid #E52D2D;
+}
+.border-ice {
+  border: 10px solid #6FBEDF;
+}
+.border-dragon {
+  border: 10px solid #478A93;
+}
+.border-dark {
+  border: 10px solid #030706;
+}
+.border-fairy {
+  border: 10px solid #971B45;
+}
+.border-unknown {
+  border: 10px solid #696767;
+}
+.border-shadow {
+  border: 10px solid #6c31a3;
+}
+
+/* background linear gradient */
+
+.bg-lg-normal {
+  background: linear-gradient(180deg, #735259, #000);
+}
+.bg-lg-fighting {
+  background: linear-gradient(180deg, #96402A, #000);
+}
+.bg-lg-flying {
+  background: linear-gradient(180deg, #beb14c, #000);
+}
+.bg-lg-poison {
+  background: linear-gradient(180deg, #5B3184, #000);
+}
+.bg-lg-ground {
+  background: linear-gradient(180deg, #654008, #000);
+}
+.bg-lg-rock {
+  background: linear-gradient(180deg, #7E7E7E, #000);
+}
+.bg-lg-bug {
+  background: linear-gradient(180deg, #E52D2D, #000);
+}
+.bg-lg-ghost {
+  background: linear-gradient(180deg, #323569, #000);
+}
+.bg-lg-steel {
+  background: linear-gradient(180deg, #5E736C, #000);
+}
+.bg-lg-fire {
+  background: linear-gradient(180deg, #F96D6F, #000);
+}
+.bg-lg-water {
+  background: linear-gradient(180deg, #133258, #000);
+}
+.bg-lg-grass {
+  background: linear-gradient(180deg, #7EC6C5, #000);
+}
+.bg-lg-electric {
+  background: linear-gradient(180deg, #0C1395, #000);
+}
+.bg-lg-psychic {
+  background: linear-gradient(180deg, #E52D2D, #000);
+}
+.bg-lg-ice {
+  background: linear-gradient(180deg, #6FBEDF, #000);
+}
+.bg-lg-dragon {
+  background: linear-gradient(180deg, #478A93, #000);
+}
+.bg-lg-dark {
+  background: linear-gradient(180deg, #030706, #000);
+}
+.bg-lg-fairy {
+  background: linear-gradient(180deg, #971B45, #000);
+}
+.bg-lg-unknown {
+  background: linear-gradient(180deg, #696767, #000);
+}
+.bg-lg-shadow {
+  background: linear-gradient(180deg, #6c31a3, #000);
+}
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+.bg-normal {
+  background:  #735259;
+}
+.bg-fighting {
+  background:  #96402A;
+}
+.bg-flying {
+  background:  #beb14c;
+}
+.bg-poison {
+  background:  #5B3184;
+}
+.bg-ground {
+  background:  #654008;
+}
+.bg-rock {
+  background: #7E7E7E;
+}
+.bg-bug {
+  background:  #E52D2D;
+}
+.bg-ghost {
+  background:  #323569;
+}
+.bg-steel {
+  background: #5E736C;
+}
+.bg-fire {
+  background:  #F96D6F;
+}
+.bg-water {
+  background:  #133258;
+}
+.bg-grass {
+  background:  #7EC6C5;
+}
+.bg-electric {
+  background:  #0C1395;
+}
+.bg-psychic {
+  background:  #E52D2D;
+}
+.bg-ice {
+  background:  #6FBEDF;
+}
+.bg-dragon {
+  background:  #478A93;
+}
+.bg-dark {
+  background:  #030706;
+}
+.bg-fairy {
+  background:  #971B45;
+}
+.bg-unknown {
+  background:  #696767;
+}
+.bg-shadow {
+  background:  #6c31a3;
+}
+
+.dark  {
+  background-color: var(--Very-Dark-Blue);
+  color: var(--White);
+  
+  
+}
+
+.light {
+  background-color: var(--Very-Light-Gray);
+  color: var(--Very-Dark-Blue);
+ 
+  
+}

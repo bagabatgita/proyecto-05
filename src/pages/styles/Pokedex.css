@@ -1,0 +1,109 @@
+.pokedex {
+    max-width: 100%;
+    font-size: 20px;
+
+    
+}
+
+.pokedex__text{
+    margin-left: 10%;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.pokedex_welcome{
+    
+    color: #D93F3F;
+}
+
+
+.pokedex__form{
+    margin-left: 10%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    font-size: 25px;
+}
+
+.pokedex__input{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.pokedex__btn{
+    background-color: #D93F3F;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.pokedex__select{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+select option:hover{
+    color: #D93F3F;
+}
+
+.pokedex__btn:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.pokedex__card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pokedex__pagination{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    padding: 40px;
+    margin: 20px;
+
+
+}
+
+.pokedex li{
+  
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.pokedex li:hover{
+    background-color: red;
+    color: white;
+ 
+   
+}
+
+.pokedex__active{
+    background-color: red;
+    color: white;
+ 
+   
+}
+
+
+
+
+
+

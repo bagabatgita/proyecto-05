@@ -1,0 +1,36 @@
+.config{
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 1200px;
+    font-size: 30px;
+    
+}
+
+.config__title{
+padding:  20px;
+
+}
+
+.config__content{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+
+.config__select{
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+
+  
+  .linear-light {
+    
+    border: 5px solid black;
+    
+  }
+  
