@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./styles/PokemonCard.css";
+import "./styles/pokemonCard.css";
 import Card from "./Card";
 import Loader from "./Loader";
 
