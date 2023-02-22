@@ -11,7 +11,7 @@ const Config = ({}) => {
     const themes = useSelector((store) => store.themes);
     const handleChangeSelectPage = (e) => {
         e.preventDefault();
-        const poke = e.target.value
+        const poke = Number(e.target.value)
         dispatch(setPokePerPage(poke))
     };
 

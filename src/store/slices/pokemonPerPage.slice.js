@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const pokemonPerPageSlice = createSlice ({
     name: "pokePerPage",
-    initialState: localStorage.getItem("pokePerPage") ?? 12 ,
+    initialState: localStorage.getItem("pokePerPage") ? JSON.parse(localStorage.getItem("pokePerPage")) : 12 ,
     reducers:{
         setPokePerPage: (state, action) => {
             localStorage.setItem("pokePerPage",action.payload)

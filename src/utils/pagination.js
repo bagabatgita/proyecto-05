@@ -1,15 +1,15 @@
 
 export const paginationLogic = (pokemonFilter,currentPage, pokePerPage ) => {
+    const pokemonPerPage = pokePerPage;
     
-
     //Pokemons  que se van a mostrar en la pagina actual
 
-    const sliceStart = (currentPage - 1) * pokePerPage;
-    const sliceEnd = sliceStart + pokePerPage;
+    const sliceStart = (currentPage - 1) * pokemonPerPage;
+    const sliceEnd = sliceStart + pokemonPerPage;
     const pokemonsInPage = pokemonFilter.slice(sliceStart, sliceEnd);
 
     //ultima pagina
-    const lastPage = Math.ceil(pokemonFilter.length / pokePerPage) || 1;
+    const lastPage = Math.ceil(pokemonFilter.length / pokemonPerPage) || 1;
 
     //Bloque Actual
     const pagesPerBlock = 5;
