@@ -89,17 +89,18 @@ const usePokedex = () => {
       setCurrentPage(1)
     },[pokemons])
 
-    return{
-        handleChangeSelect,
-        handleNextPage,
-        handlePreviusPage,
-        handleSubmit,
-        pokemonFilter,
-        types,
-        pokePerPage,
-        pokemonsInPage,pagesInBlock
-       
-    }
+   return {
+    handleSubmit,
+    handleChangeSelect,
+    types,
+    pokemonsInPage,
+    handlePreviusPage,
+    handleNextPage,
+    pagesInBlock,
+    setCurrentPage,
+    currentPage,
+    pokePerPage
+  }
 }
 
 export default usePokedex

@@ -1,4 +1,4 @@
-import axios from "axios";
+
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import PokemonCard from "../components/pokedex/PokemonCard";
@@ -12,7 +12,10 @@ const Pokedex = () => {
 
   const themes = useSelector((store) => store.themes);
 
-  const {handleChangeSelect,handleNextPage, handlePreviusPage, handleSubmit,types,pokePerPage,pokemonsInPage,pagesInBlock,currentPage} = usePokedex()
+  
+
+  const {handleChangeSelect,handleNextPage, handlePreviusPage, handleSubmit,setCurrentPage, types,
+    pokemonsInPage, pagesInBlock,currentPage,pokePerPage} = usePokedex()
  
   return (
     <main  className="pokedex">

@@ -49,7 +49,7 @@
     position: absolute;
     top:-50px;
     right: 50%;
-    background-color: rga(255,255,1);
+    background-color: white;
     border: 10px solid ;
     width: 100px;
     aspect-ratio: 1;

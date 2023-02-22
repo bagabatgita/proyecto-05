@@ -1,7 +1,7 @@
 import React from 'react'
 import {logOut} from '../../store/slices/nameTrainer.slice'
 import { useDispatch } from 'react-redux'
-import "../../components/styles/Header.css"
+import "./styles/Header.css"
 import { NavLink } from 'react-router-dom'
 import { resetTheme } from '../../store/slices/theme.slice'
 
